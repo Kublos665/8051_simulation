@@ -1,0 +1,8 @@
+000 - increment, flags: none
+001 - decrement, flags: none
+010 - add, flags: carry (C), auxiliary carry (AC), overflow (OV)
+011 - add with carry, flags: carry (C), auxiliary carry (AC), overflow (OV)
+100 - subb, flags: carry (C), auxiliary carry (AC), overflow (OV)
+101 - multiply, flags: carry (C), overflow (OV)
+110 - divide, flags: carry (C),  overflow (OV)
+111 - no operation, flags: none
