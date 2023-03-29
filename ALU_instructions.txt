@@ -5,7 +5,7 @@
 0100 - subb, flags: carry (C), auxiliary carry (AC), overflow (OV)
 0101 - multiply, flags: carry (C), overflow (OV)
 0110 - divide, flags: carry (C),  overflow (OV)
-0111 - logical OR
-1000 - logical AND
-1001 - logical XOR
+0111 - logical OR, affects carry only if carry is one of the operands 
+1000 - logical AND, affects carry only if carry is one of the operands
+1001 - logical XOR, flags: non
 1111 - no operation, flags: none
